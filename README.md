@@ -222,7 +222,7 @@ const Hello = () => 'Hello'
 export default hot(module)(Hello) // <-- the only change to do
 ```
 
-### Checking Element `type`s
+### Checking Element `types`
 
 Because React Hot Loader creates proxied versions of your components, comparing
 reference types of elements won't work:
